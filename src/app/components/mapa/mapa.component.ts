@@ -59,7 +59,7 @@ export class MapaComponent implements OnInit {
 
       dialogRef.afterClosed().subscribe(result => {
         console.log('The dialog was closed');
-        if(!result){
+        if ( !result ){
           return;
         }
         marcador.titulo = result.titulo;
